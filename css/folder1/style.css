@@ -1,0 +1,13 @@
+p {
+    color: darkgray;   
+}
+
+div  {
+     color: rgb(red, green, blue);  
+
+     background-color: rgba(234, 255, 0, 1);
+     }
+
+span {
+     color: #dd4444
+     }
