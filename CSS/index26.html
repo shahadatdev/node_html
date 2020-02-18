@@ -24,7 +24,7 @@
 
         }
         .side{
-            float: leaft;
+            float: left;
             width: 150px;
 
 
@@ -76,6 +76,37 @@
         footer .love{
             color: pink;
         }
+
+        @media only screen and (max-width: 768px)
+        {
+          .container {
+            width: 100%;
+          }
+        }
+        header{
+          text-align: center;
+
+        }
+        .side{
+          float: none;
+          width: 100%;
+          text-align: center;
+        }
+
+        .side ul li{
+          display: inline-block;
+        }
+        .side ul li{
+          border-bottom: none;
+          padding: 10px;
+        }
+        .main{
+          margin-left: 0;
+        }
+        .main p{
+          text-align: justify;
+        }
+
 
 
     </style>
