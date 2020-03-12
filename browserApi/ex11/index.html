@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const username = prompt("What is your USERNAME?");
+        const password = prompt("What is PASSWORD?");
+
+        alert("Wellcome" + username);
+
+        setTimeout( function()
+        {
+            const logged = confirm("Do you still want to be logged?");
+
+            if (logged)
+            {
+                alert(username + "Your session has been restored");
+            } else
+                {
+                    alert(username + "Your session has expired");
+                }
+            
+
+        }, 10000);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
